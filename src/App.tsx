@@ -1,9 +1,10 @@
 import React from 'react';
+import Header from './components/shared/template/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      React 17 TypeScript.
+      <Header title="React header" />
     </div>
   );
 }
