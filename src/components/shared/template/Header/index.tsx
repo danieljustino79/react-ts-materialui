@@ -32,7 +32,7 @@ const Header = () => {
   //xs, sm, md, lg, xl
   return (
     <Container maxWidth="lg" disableGutters={true} >
-      <AppBar position="static" 
+      <AppBar position="sticky" 
         color="default"
         elevation={0}
         className={classes.appBar}>
